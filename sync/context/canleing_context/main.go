@@ -38,7 +38,7 @@ func computingRunsSetOfGoroutines(ctx context.Context) error {
 
 func compute(ctx context.Context, rch <-chan int) error {
 	for {
-		// blocking untel one of case receive or send operation is invoked
+		// blocking until one of case receive or send operation is invoked
 		select {
 		case <-ctx.Done():
 			if ctx.Err() != nil {
