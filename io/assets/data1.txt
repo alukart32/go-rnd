@@ -1,0 +1,1 @@
+You can also Seek to a known location in the file and Read from there.

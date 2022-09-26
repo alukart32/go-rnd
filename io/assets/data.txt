@@ -1,0 +1,3 @@
+In this chapter we are going to look at the building blocks in Go for communicating with the outside world.
+We will look at files, directories, networking and executing other programs. Central to Go’s I/O are the interfaces io.Reader and io.Writer.
+The io.Reader interface specifies one method Read(p []byte) (n int, err err).

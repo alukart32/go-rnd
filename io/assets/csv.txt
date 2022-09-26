@@ -1,0 +1,6 @@
+# employee data
+name; age; salary
+a;30;1000
+b ;50; 2000
+# He is hypster
+c; 20; 800
